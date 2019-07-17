@@ -117,7 +117,9 @@ body{
 }
 
 #car_1{
-    
+    top: -100px;
+    left: 60%;
+    background-color:  #26c5ff;
 }
 
 
