@@ -63,8 +63,18 @@ body{
     margin-left: 10%;
     top: -6%;
     border-radius: 5px 5px 0px 0px;
+    background-color: #efefef;
 }
 
+.f_light_r{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    margin-left: 70%;
+    top: -6%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #efefef;
+}
 
 
 
