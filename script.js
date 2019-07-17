@@ -77,7 +77,26 @@ $(function () {
         }
     }
 
+    function right() {
+        if (game_over === false && parseInt(car.css('left'))< container_width - car_width){
+            car.css('left',parseInt(car.css('left')) +5);
+            move_right = requestAnimationFrame(right);
+        } 
+    }
     
+    function up() {
+        if (game_over === false && parseInt(car.css('top')) > 0){
+            car.css('top',parseInt(car.css('top')) -3);
+            move_up = requestAnimationFrame(up);
+        }
+    }
+    
+    function down() {
+        if(game_over){
+
+        }
+        
+    }
 
 
 
