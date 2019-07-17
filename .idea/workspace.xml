@@ -34,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="37" />
+          <entry key="css" value="120" />
           <entry key="html" value="434" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="37" />
+          <entry key="CSS" value="120" />
           <entry key="HTML" value="434" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -132,7 +132,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563379274548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563379334271" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -166,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563180510646</updated>
       <workItem from="1563180513338" duration="2128000" />
-      <workItem from="1563344742236" duration="7352000" />
+      <workItem from="1563344742236" duration="7797000" />
     </task>
     <task id="LOCAL-00001" summary="com2">
       <created>1563180884830</created>
@@ -322,11 +322,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563379049764</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="car race game">
+      <created>1563379280250</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563379280250</updated>
+    </task>
+    <task id="LOCAL-00024" summary="car race game">
+      <created>1563379339817</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563379339817</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9480000" />
+    <option name="totallyTimeSpent" value="9925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -385,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>

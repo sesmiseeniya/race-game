@@ -8,4 +8,14 @@ body{
 
 #container{
     position: relative;
+    height: 90vh;
+    width: 25%;
+    left: 35%;
+    margin-top: 20px;
+    background-color: #292929;
+    overflow: hidden;
+}
+
+.line{
+    
 }
