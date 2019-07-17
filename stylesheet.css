@@ -56,6 +56,15 @@ body{
     background-color: #efefef;
 }
 
+.f_light_l{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    margin-left: 10%;
+    top: -6%;
+    border-radius: 5px 5px 0px 0px;
+}
+
 
 
 
