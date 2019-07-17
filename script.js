@@ -109,9 +109,36 @@ $(function () {
 
             score_counter++;
 
-            if()
+            if(score_counter % 20 == 0){
+                score.text(parseInt(score.text()) +1);
+            }
+            
+            if(score_counter % 500 == 0){
+                speed++;
+                line_speed++;
+            }
+            
+            car_down(car_1);
+            car_down(car_2);
+            car_down(car_3);
+            
+            line_down(line_1);
+            line_down(line_2);
+            line_down(line_3);
+            
+            anim_id = requestAnimationFrame(repeat);
         }
         
+    }
+    
+    
+    function car_down(car) {
+        var car_current_top = parseInt(car.css('top'));
+        if(car_current_top > container_height){
+            car_current_top = -200;
+            var car_left = parseInt(Math.random() * (container_width - car_width));
+            car.css('left',car_left)
+        }
     }
 
 
