@@ -3,4 +3,9 @@ body{
     width: 100%;
     margin: 0;
     background-color: #45d678;
+    font-family: sans-serif;
+}
+
+#container{
+    position: relative;
 }
