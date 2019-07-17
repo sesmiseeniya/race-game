@@ -101,8 +101,25 @@ body{
     height: 20%;
     width: 10%;
     background-color: gray;
+    top: 70%;
+    left: -10%;
+    border-radius:  5px 0px 0px 5px;
+}
+
+.b_tyre_r{
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    background-color: gray;
+    top: 70%;
+    left: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#car_1{
     
 }
+
 
 
 
