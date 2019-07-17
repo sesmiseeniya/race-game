@@ -92,8 +92,24 @@ $(function () {
     }
     
     function down() {
-        if(game_over){
+        if(game_over === false && parseInt(car.css('top')) < container_height - car_height){
+            car.css('top',parseInt(car.css('top')) +3);
+            move_down = requestAnimationFrame(down);
+        }
+    }
+    
+    anim_id = requestAnimationFrame(repeat);
+    
+    function repeat() {
+        
+        if (game_over === false){
+            if (collision(car, car_1) || collision(car, car_2) || collision(car, car_3)){
+                stop_the_game();
+            }
 
+            score_counter++;
+
+            if()
         }
         
     }
