@@ -137,10 +137,24 @@ $(function () {
         if(car_current_top > container_height){
             car_current_top = -200;
             var car_left = parseInt(Math.random() * (container_width - car_width));
-            car.css('left',car_left)
+            car.css('left',car_left);
         }
+        car.css('top',car_current_top + speed);
     }
 
+    function line_down(line) {
+        var line_current_top = parseInt(line.css('top'));
+        if(line_current_top > container_height){
+            line_current_top = -300;
+        }
+
+        line.css('top',line_current_top + line_speed);
+
+    }
+
+    restart_btn.click(function () {
+        location.reload();
+    });
 
 
 
