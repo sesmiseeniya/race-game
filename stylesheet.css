@@ -36,7 +36,15 @@ body{
     top: 450px;
 }
 
-
+.f_glass{
+    position: absolute;
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    top:15%;
+    border-radius: 0px 0px 5px 5px;
+    background-color:  #484848;
+}
 
 
 
