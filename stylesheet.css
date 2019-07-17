@@ -76,6 +76,41 @@ body{
     background-color: #efefef;
 }
 
+.f_tyre_l{
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    background-color: grey;
+    top: 20%;
+    left: -10%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.b_tyre_r{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
