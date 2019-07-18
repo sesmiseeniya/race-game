@@ -16,7 +16,9 @@ body{
     left: 35%;
     margin-top: 20px;
     background-color: #292929;
-    background-image: url("images/istockphoto-1002179610-612x612.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-image: url("images/istockphoto-1002179610-612x612.jpg" );*/
     overflow: hidden;
 }
 
