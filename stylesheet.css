@@ -15,8 +15,8 @@ body{
     width: 25%;
     left: 35%;
     margin-top: 20px;
-    background-color: white;
-    background-image: url("images/game.jpg");
+    background-color: #292929;
+    /*background-image: url("images/game.jpg");*/
     overflow: hidden;
 }
 
